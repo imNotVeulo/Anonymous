@@ -1,0 +1,97 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container class */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Info, Tips, and History Sections */
+.info-section, .tips-section, .resources-section, .history-section {
+    padding: 40px 0;
+    background: white;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.info-section h2, .tips-section h2, .resources-section h2, .history-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.info-section p, .tips-section ul, .resources-section ul, .history-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* History Section */
+.history-section p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+.tips-section ul, .resources-section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.tips-section li, .resources-section li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.resources-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.resources-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
